@@ -20,7 +20,7 @@ def snap_shot():
 
 
 def upload_img(img):
-    access_token="V1EUCsib7XUAAAAAAAAAAZ8hL9nOL0VjvHebBkJapLGOt7kk_WVvMiVdH4IEQDJB"
+    access_token="sl.BBBD-W9DfJmKQUsEG2iNQHqbz4shgEXhv_B9sy-Qv5VWQRXcsSZrzq84Yeqf6WizS6UB1yvCJHORe9RXdLKu7ALMe8eKnSqIxLoKUPx51kN7c0gRUA049TeyERtnliog0JDIQ0Y"
     file_from = img
     file_to = "/Python/" + img
     dbx = dropbox.Dropbox(access_token)
